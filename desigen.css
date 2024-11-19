@@ -1,0 +1,127 @@
+body{
+    background-color: cornsilk;
+}
+
+.div1{
+    border-color: black;
+    border-style: solid;
+    border-width:5px;
+    height: 350px;
+    width: 500px;
+    border-radius: 30px;
+    background-image:url(https://images3.alphacoders.com/108/thumb-1920-108537.jpg);
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 8px gray;
+
+}
+
+.div2{
+    border-color: black;
+    border-style: solid;
+    border-width:5px;
+    height: 350px;
+    width: 500px;
+    border-radius: 30px;
+    background-image:url(http://getwallpapers.com/wallpaper/full/4/e/f/1106176-music-instrument-wallpaper-1920x1200-for-mac.jpg);
+    margin-top: -360px;
+    margin-left: 900px;
+    box-shadow: 5px 5px 5px 8px greenyellow;
+}
+#c1{
+    height: 230px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 100px;
+    box-shadow: 10px 20px 10px white;
+}
+#bn{
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border-bottom-color: aqua;
+    border-top-color:red;
+    border-left-color: plum;
+    border-right-color: greenyellow;
+    border-width: 5px;
+    box-shadow: 5px  2px grey;
+}
+#p1{
+    display:none;
+    border:5px solid skyblue;
+    border-radius: 90px;
+    height: 250px;
+    width: 620px;
+    padding: 60px 0px 0px 20px;
+    text-align: justify;
+    margin: 40px ;
+    font-size: x-large;
+    color:black;
+    background-image: url(https://wallpapercave.com/wp/MRbLyE8.jpg); 
+    border-width: 5px;
+    box-shadow: 5px  5px 5px grey;
+  
+}
+#bn:hover ~ #p1{
+    display: block;
+}
+#c2{
+    height: 230px;
+    margin-top: 60px;
+    margin-left: 80px;
+    border-radius: 100px;
+    box-shadow: 10px 20px 10px white;
+}
+#bn1{
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border-bottom-color: aqua;
+    border-top-color:red;
+    border-left-color: plum;
+    border-right-color: greenyellow;
+    border-width: 5px;
+    box-shadow: 5px  5px 5px grey;
+
+}
+
+
+#p2{
+    display:none;
+    border:5px solid skyblue;
+    border-radius: 90px;
+    height: 400px;
+    width: 620px;
+    padding: 60px 0px 0px 20px;
+    text-align: justify;
+    margin: 40px ; 
+   font-size: x-large;
+   color:white;
+   background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg);
+   border-width: 5px;
+    box-shadow: 5px  2px 5px grey;
+  
+}
+#bn1:hover ~ #p2{
+    display: block;
+}
+#p3{
+    text-align: center;
+    text-shadow: 10px 10px 3px seagreen;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+#p4{
+    text-align: center;
+    text-shadow: 10px 10px 3px skyblue;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: white;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 15px 20px 10px gray;
+}
